@@ -3,6 +3,134 @@
 	{
 		"selected_items":
 		[
+			[
+				"id",
+				"id_trace\tstatement"
+			],
+			[
+				"con",
+				"consumersList\tstatement"
+			],
+			[
+				"fishe",
+				"finishedAndPrint"
+			],
+			[
+				"consumer",
+				"consumersList\tstatement"
+			],
+			[
+				"fin",
+				"fishedSoPrint\tfunction"
+			],
+			[
+				"conu",
+				"consumersList"
+			],
+			[
+				"is",
+				"isAlive\tfunction"
+			],
+			[
+				"consum",
+				"consumersList\tstatement"
+			],
+			[
+				"deb",
+				"DEBUG\tstatement"
+			],
+			[
+				"pseu",
+				"pseudonym"
+			],
+			[
+				"mix",
+				"mixZonesList\tstatement"
+			],
+			[
+				"very",
+				"verififyMixZones\tfunction"
+			],
+			[
+				"create",
+				"createMixZones\tfunction"
+			],
+			[
+				"time",
+				"dataTime"
+			],
+			[
+				"car",
+				"carOnMixZone\tstatement"
+			],
+			[
+				"data",
+				"dataSets2\tfunction"
+			],
+			[
+				"a",
+				"append\tfunction"
+			],
+			[
+				"dataset",
+				"dataSets1\tfunction"
+			],
+			[
+				"trace",
+				"traceCar1"
+			],
+			[
+				"ra",
+				"raioMixZone\tstatement"
+			],
+			[
+				"al",
+				"alreadyMixZone\tstatement"
+			],
+			[
+				"mi",
+				"mixZonesList\tstatement"
+			],
+			[
+				"cres",
+				"createMixZones\tfunction"
+			],
+			[
+				"lat",
+				"lat\tparam"
+			],
+			[
+				"alt",
+				"altitude"
+			],
+			[
+				"lo",
+				"lowercase\tinstance"
+			],
+			[
+				"thre",
+				"thread1\tstatement"
+			],
+			[
+				"thread",
+				"thread2\tstatement"
+			],
+			[
+				"todos",
+				"todosRegistros\tstatement"
+			],
+			[
+				"abr",
+				"abrirArquivo"
+			],
+			[
+				"dir",
+				"dirX\tstatement"
+			],
+			[
+				"n",
+				"name"
+			]
 		]
 	},
 	"buffers":
@@ -35,6 +163,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"package control:disable package",
+				"Package Control: Disable Package"
+			],
+			[
+				"Anaconda: Disable linting on all file",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"Anaconda: Disable linting on this file",
+				"Anaconda: Disable linting on this file"
+			],
 			[
 				"install pa",
 				"Package Control: Install Package"
@@ -73,17 +213,91 @@
 	},
 	"file_history":
 	[
-		"/Users/ekler.mattos/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/utils/DatasetsFake.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/utils/ConvertFileMixZoneToTraceFiles.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/augusto_scripts/check_mixzone.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/ProducerConsumer3.py",
+		"/Users/ekler.mattos/Documents/ConvertFileMixZoneToTraceFiles.py",
+		"/Users/ekler.mattos/Documents/DatasetsFake.py",
+		"/Users/ekler.mattos/Documents/ProducerConsumer3.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/arqs/trips_mixzone_0/trace1.csv",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/augusto_scripts/Error at file.txt",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/arqs/trips_mixzone_0/trace12.csv",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/arqs/trips_mixzone_0/trace10.csv",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/utils/FileUtils.py",
+		"/anaconda3/lib/python3.7/site-packages/pandas/io/common.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/utils/pandas/_libs/parsers.pyx",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/arqs/trace{id_trace}.csv",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/augusto_scripts/trips_mixzone_0.csv",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/MapCityParallel.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/utils/RandomWordsGen.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/utils/RandomWordsGen.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/Car.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/MixZoneCanonic.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/pymotw/ControllingAccesstoResources.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/pymotw/ThreadLogging.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/utils/OpenMixZonesFiles.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/augusto_scripts/filter_by_day.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/Withdraw3.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/pymotw/ProducerConsumer2.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/utils/VeryMethods.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/pandas/_libs/tslibs/timestamps.pyx",
+		"/anaconda3/lib/python3.7/threading.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/ThreadsManager.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/ProducerConsumer1.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mixzone/ProducerConsumer2.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/QueueTest.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/pymotw/SignalingBetweenThreads.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/pymotw/TimerThreads.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/SynchronizingThreads.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/LocksasContextManagers.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/ProcessManagers.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/SynchronizingThreads.py ",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/utils/FileUtils.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/MixMain.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/random/RandomWordsTest.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/Withdraw1.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/Withdraw2.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/Withdraw3.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/GeneratorWordsTest.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/TenMinPandas.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/GerenciadorArquivos.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/MixZoneCanonic.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/MapCityParallel.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/MapCityParallelWithTwoProcess.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/Car.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/HeversineTestLib.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/Square2.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/Square1.py",
+		"/anaconda3/lib/python3.7/multiprocessing/process.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/Withdraw3.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/hiversinelibs/HeversineTest.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/hiversinelibs/__init__.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/Withdraw2",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/threading/minhaThread.py",
+		"/Users/ekler.mattos/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/ekler.mattos/Library/Application Support/Sublime Text 3/Packages/Anaconda/Default (OSX).sublime-keymap",
 		"/Users/ekler.mattos/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/GeneratorWordsTest",
+		"/anaconda3/lib/python3.7/codecs.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/hiversinelibs/Haversine.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/mix-zone/MixMain",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/HelloPython.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/Pessoa.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/Haversine.py",
+		"/Users/ekler.mattos/Documents/Dinter/Tese - Fase 2/Projetos/trajectory-privacy-LBS/PythonTests/HeversineTest.py",
+		"/Users/ekler.mattos/Downloads/Ver/PythonTests/Pessoa.py",
+		"/Users/ekler.mattos/Downloads/Ver/PythonTests/TenMinPandas.py",
+		"/Users/ekler.mattos/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/Users/ekler.mattos/Documents/Dinter/Disciplinas/Computação Ubíqua/Projeto/workspace/Ubicomp/heatmap.py"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 101.0,
 		"where_history":
 		[
 		]
@@ -121,7 +335,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -148,11 +362,15 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 209.0
+		"height": 198.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 108.0
 	},
 	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "TenMinPandas.sublime-project",

@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import datetime
 
 
 
@@ -301,3 +302,28 @@ df = pd.DataFrame(np.random.randn(8, 2), index=index, columns=['A', 'B'])
 df2 = df[:4]
 
 print(df2)
+
+
+############# Pivot tables #################
+
+df = pd.DataFrame({'A': ['one', 'one', 'two', 'three'] * 6,
+	'B': ['A', 'B', 'C'] * 8,
+	'C': ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 4,
+	'D': np.random.randn(24),
+	'E': np.random.randn(24),
+	'F': [datetime.datetime(2013, i, 1) for i in range(1, 13)] + [datetime.datetime(2013, i, 15) for i in range(1, 13)]})
+
+print(df)
+
+#We can produce pivot tables from this data very easily:
+p = pd.pivot_table(df, values='D', index=['A', 'B'], columns=['C'])
+print(p)
+
+
+p = pd.pivot_table(df, values='D', index=['B'], columns=['A', 'C'], aggfunc=np.sum)
+print(p)
+
+
+p = pd.pivot_table(df, values=['D','E'], index=['B'], columns=['A', 'C'], aggfunc=np.sum)
+print(p)
+
